@@ -1,0 +1,42 @@
+html {
+    background-color: grey;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#display {
+    padding: 5px;
+    margin-bottom: 2px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    width: 87px;
+    height: 19px;
+}
+
+#main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 124px;
+    flex-wrap: wrap;
+}
+
+button {
+    font-size: 20px;
+    width: 24px;
+    height: 31px;
+}
+
+
+
+/*why does this not align the items in a sqaure format*/
