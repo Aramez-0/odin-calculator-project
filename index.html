@@ -8,24 +8,28 @@
     <title>Calculator</title>
 </head>
 <body>
-    <div id="display"></div>
-    <div id="main-container">
-        <button type="button" id="nine">9</button>
-        <button type="button" id="eight">8</button>
-        <button type="button" id="seven">7</button>
-        <button type="button" id="six">6</button>
-        <button type="button" id="five">5</button>
-        <button type="button" id="four">4</button>
-        <button type="button" id="three">3</button>
-        <button type="button" id="two">2</button>
-        <button type="button" id="one">1</button>
-        <button type="button" id="zero">0</button>
-        <button type="button" id="point">.</button>
-        <button type="button" id="divide">/</button>
-        <button type="button" id="multiply">*</button>
-        <button type="button" id="addition">+</button>
-        <button type="button" id="subtraction">-</button>
-        <button type="button" id="equals">=</button>
+    <div id="ruling-container">
+        <input id="display" readonly autocomplete="off">
+        <div id="btn-container">
+            <button type="button" class="calc-btn" id="nine">9</button>
+            <button type="button" class="calc-btn" id="eight">8</button>
+            <button type="button" class="calc-btn" id="seven">7</button>
+            <button type="button" class="calc-btn" id="six">6</button>
+            <button type="button" class="calc-btn" id="five">5</button>
+            <button type="button" class="calc-btn" id="four">4</button>
+            <button type="button" class="calc-btn" id="three">3</button>
+            <button type="button" class="calc-btn" id="two">2</button>
+            <button type="button" class="calc-btn" id="one">1</button>
+            <button type="button" class="calc-btn" id="zero">0</button>
+            <button type="button" class="calc-btn" id="point">.</button>
+            <button type="button" class="calc-btn" id="divide">/</button>
+            <button type="button" class="calc-btn" id="multiply">*</button>
+            <button type="button" class="calc-btn" id="add">+</button>
+            <button type="button" class="calc-btn" id="subtract">-</button>
+            <button type="button" class="calc-btn" id="clear">clr</button>
+            <button type="button" class="calc-btn" id="equals">=</button>
+        </div>
     </div>
+    <button type="button" id="toggle-rounding">Toggle rounded numbers: On</button>
 </body>
 </html>
